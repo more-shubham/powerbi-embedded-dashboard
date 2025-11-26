@@ -1,0 +1,112 @@
+{
+  "visualTypes": {
+    "clusteredBarChart": "clusteredBarChart",
+    "clusteredColumnChart": "clusteredColumnChart",
+    "lineChart": "lineChart",
+    "areaChart": "areaChart",
+    "pieChart": "pieChart",
+    "donutChart": "donutChart",
+    "card": "card",
+    "multiRowCard": "multiRowCard",
+    "table": "tableEx",
+    "matrix": "matrix",
+    "slicer": "slicer",
+    "kpi": "kpi",
+    "gauge": "gauge",
+    "map": "map",
+    "treemap": "treemap",
+    "waterfallChart": "waterfallChart",
+    "funnel": "funnel",
+    "scatterChart": "scatterChart",
+    "lineClusteredColumnComboChart": "lineClusteredColumnComboChart"
+  },
+  "presets": {
+    "salesOverTime": {
+      "visualType": "lineChart",
+      "dataRoles": {
+        "category": { "table": "DimDate", "column": "Month-Year" },
+        "values": [{ "table": "All Measures", "measure": "Total Sales" }]
+      }
+    },
+    "salesByCustomer": {
+      "visualType": "clusteredBarChart",
+      "dataRoles": {
+        "category": { "table": "dimCustomer", "column": "Customer Code/Name" },
+        "values": [{ "table": "All Measures", "measure": "Total Sales" }]
+      }
+    },
+    "salesByProduct": {
+      "visualType": "clusteredBarChart",
+      "dataRoles": {
+        "category": { "table": "dimProduct", "column": "Product Name-Code" },
+        "values": [{ "table": "All Measures", "measure": "Total Sales" }]
+      }
+    },
+    "salesByPrincipal": {
+      "visualType": "pieChart",
+      "dataRoles": {
+        "category": { "table": "dimProduct", "column": "Principal Name-Code" },
+        "values": [{ "table": "All Measures", "measure": "Total Sales" }]
+      }
+    },
+    "kpiTotalSales": {
+      "visualType": "card",
+      "dataRoles": {
+        "values": [{ "table": "All Measures", "measure": "Total Sales" }]
+      }
+    },
+    "kpiTotalCases": {
+      "visualType": "card",
+      "dataRoles": {
+        "values": [{ "table": "All Measures", "measure": "Total Cases" }]
+      }
+    },
+    "salesVsBrokerage": {
+      "visualType": "lineClusteredColumnComboChart",
+      "dataRoles": {
+        "category": { "table": "DimDate", "column": "Month-Year" },
+        "columnValues": [{ "table": "All Measures", "measure": "Total Sales" }],
+        "lineValues": [{ "table": "All Measures", "measure": "Calculated Brokerage" }]
+      }
+    },
+    "salesTrendComparison": {
+      "visualType": "lineChart",
+      "dataRoles": {
+        "category": { "table": "DimDate", "column": "Month-Year" },
+        "values": [
+          { "table": "All Measures", "measure": "Total Sales" },
+          { "table": "All Measures", "measure": "Total Sales LY" }
+        ]
+      }
+    },
+    "productPerformanceTable": {
+      "visualType": "tableEx",
+      "dataRoles": {
+        "values": [
+          { "table": "dimProduct", "column": "Product Name-Code" },
+          { "table": "Product measures", "measure": "No. of unit sold" },
+          { "table": "Product measures", "measure": "Gross $" },
+          { "table": "Product measures", "measure": "Net Dollers" }
+        ]
+      }
+    },
+    "customerSlicer": {
+      "visualType": "slicer",
+      "dataRoles": {
+        "values": [{ "table": "dimCustomer", "column": "Customer Code/Name" }]
+      }
+    },
+    "dateSlicer": {
+      "visualType": "slicer",
+      "dataRoles": {
+        "values": [{ "table": "DimDate", "column": "Month-Year" }]
+      }
+    },
+    "principalSlicer": {
+      "visualType": "slicer",
+      "dataRoles": {
+        "values": [{ "table": "dimProduct", "column": "Principal Name-Code" }]
+      }
+    }
+  }
+}

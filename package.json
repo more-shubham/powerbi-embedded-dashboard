@@ -1,0 +1,70 @@
+{
+  "name": "powerbi-embedded-dashboard",
+  "version": "0.1.0",
+  "description": "Showcase project demonstrating Power BI Embedded JavaScript API capabilities: visual creation, report authoring, dynamic filtering, page management. Built with Next.js 16, React 19, TypeScript.",
+  "author": "Shubham More",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/more-shubham/powerbi-embedded-dashboard.git"
+  },
+  "homepage": "https://github.com/more-shubham/powerbi-embedded-dashboard#readme",
+  "bugs": {
+    "url": "https://github.com/more-shubham/powerbi-embedded-dashboard/issues"
+  },
+  "keywords": [
+    "power-bi",
+    "powerbi",
+    "power-bi-embedded",
+    "powerbi-embedded",
+    "embedded-analytics",
+    "business-intelligence",
+    "bi-dashboard",
+    "data-visualization",
+    "react-dashboard",
+    "nextjs",
+    "react",
+    "typescript",
+    "azure-ad",
+    "msal",
+    "report-authoring",
+    "visual-builder",
+    "dynamic-filters"
+  ],
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,json,css,md}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,json,css,md}\""
+  },
+  "dependencies": {
+    "@azure/msal-node": "^3.8.3",
+    "@hookform/resolvers": "^5.2.2",
+    "lucide-react": "^0.554.0",
+    "next": "16.0.4",
+    "powerbi-client": "^2.23.9",
+    "powerbi-report-authoring": "^3.0.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-hook-form": "^7.66.1",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.7.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

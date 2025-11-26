@@ -1,0 +1,77 @@
+{
+  "salesTrend": {
+    "table": "Sales Trend Measures",
+    "measures": {
+      "priorPeriod": {
+        "values": [
+          { "name": "PP Gross $", "field": "PP Gross $s" },
+          { "name": "PP Net $", "field": "PP Net $" },
+          { "name": "PP Gross Weight", "field": "PP Gross Weights" },
+          { "name": "PP Net Weight", "field": "PP Net Weights" },
+          { "name": "PP Units", "field": "PP Units" },
+          { "name": "PP Order Count", "field": "PP Order Count" },
+          { "name": "PP Calc Brokerage", "field": "PP Calculated Brokerages" },
+          { "name": "PP Paid Brokerage", "field": "PP Paid Brokerages" }
+        ],
+        "percentages": [
+          { "name": "PP% Gross $", "field": "PP% Gross $" },
+          { "name": "PP% Net $", "field": "PP% Net $" },
+          { "name": "PP% Gross Weight", "field": "PP% Gross Weight" },
+          { "name": "PP% Net Weight", "field": "PP% Net Weight" },
+          { "name": "PP% Units", "field": "PP% Units" },
+          { "name": "PP% Order Count", "field": "PP% Order Counts" },
+          { "name": "PP% Calc Brokerage", "field": "PP% Calculated Brokerage" },
+          { "name": "PP% Paid Brokerage", "field": "PP% Paid Brokerage" }
+        ],
+        "colors": [
+          { "name": "PP % Color Gross $", "field": "PP % Color Gross $" },
+          { "name": "PP % Color Net $", "field": "PP % Color Net $" },
+          { "name": "PP % Color Gross Weight", "field": "PP % Color Gross Weight" },
+          { "name": "PP % Color Net Weight", "field": "PP % Color Net Weight" },
+          { "name": "PP % Color Units", "field": "PP % Units" },
+          { "name": "PP % Color Order Count", "field": "PP % Color Order Count" },
+          { "name": "PP % Color Calc Brokerage", "field": "PP % Color Calculated Brokerage" },
+          { "name": "PP % Color Paid Brokerage", "field": "PP % Color Paid Brokerage" }
+        ]
+      },
+      "samePeriodLastYear": {
+        "values": [
+          { "name": "SPLY Gross $", "field": "SPLY Gross $" },
+          { "name": "SPLY Net $", "field": "SPLY Net $" },
+          { "name": "SPLY Gross Weight", "field": "SPLY Gross Weight" },
+          { "name": "SPLY Net Weight", "field": "SPLY Net Weight" },
+          { "name": "SPLY Units", "field": "SPLY Units" },
+          { "name": "SPLY Order Count", "field": "SPLY Order Count" },
+          { "name": "SPLY Calc Brokerage", "field": "SPLY Calculated Brokerage" },
+          { "name": "SPLY Paid Brokerage", "field": "SPLY Paid brokerage" }
+        ],
+        "percentages": [
+          { "name": "SPLY% Gross $", "field": "SPLY% Gross $" },
+          { "name": "SPLY% Net $", "field": "SPLY% Net $" },
+          { "name": "SPLY% Gross Weight", "field": "SPLY% Gross Weight" },
+          { "name": "SPLY% Net Weight", "field": "SPLY% Net Weight" },
+          { "name": "SPLY% Units", "field": "SPLY% Units" },
+          { "name": "SPLY% Order Count", "field": "SPLY% Order Count" },
+          { "name": "SPLY% Calc Brokerage", "field": "SPLY% Calculated Brokerage" },
+          { "name": "SPLY% Paid Brokerage", "field": "SPLY% Paid Brokerage" }
+        ],
+        "colors": [
+          { "name": "SPLY % Color Gross $", "field": "SPLY % Color Gross $" },
+          { "name": "SPLY % Color Net $", "field": "SPLY % Color Net $" },
+          { "name": "SPLY % Color Gross Weight", "field": "SPLY % Color Gross Weight" },
+          { "name": "SPLY % Color Net Weight", "field": "SPLY % Color Net Weight" },
+          { "name": "SPLY % Color Units", "field": "SPLY % Units" },
+          { "name": "SPLY % Color Order Count", "field": "SPLY % Color Order Count" },
+          { "name": "SPLY % Color Calc Brokerage", "field": "SPLY % Color Calculated Brokerage" },
+          { "name": "SPLY % Color Paid Brokerage", "field": "SPLY % Color Paid Brokerage" }
+        ]
+      },
+      "utility": [{ "name": "PP", "field": "PP" }]
+    }
+  },
+  "summaryTitles": {
+    "title": { "table": "Sales Summary Parameter", "measure": "Title" },
+    "customTitle": { "table": "Sales Summary Parameter2", "measure": "Custom Title" },
+    "goalMeasure": { "table": "Sales Goal Measures Parameter", "measure": "Measure" }
+  }
+}

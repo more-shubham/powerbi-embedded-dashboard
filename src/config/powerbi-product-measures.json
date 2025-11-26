@@ -1,0 +1,56 @@
+{
+  "product": {
+    "table": "Product measures",
+    "measures": {
+      "current": [
+        { "name": "Gross $", "field": "Gross $" },
+        { "name": "Net $", "field": "Net Dollers" },
+        { "name": "Gross Weight", "field": "Gross Weight" },
+        { "name": "Net Weight", "field": "Net Weight" },
+        { "name": "Units Sold", "field": "No. of unit sold" },
+        { "name": "LBs Sold", "field": "No. of Lbs sold" },
+        { "name": "Orders", "field": "No. of orders" }
+      ],
+      "samePeriodLastYear": [
+        { "name": "Units Sold SPLY", "field": "No. of unit sold SPLY" },
+        { "name": "LBs Sold SPLY", "field": "No. of LBs sold SPLY" },
+        { "name": "Orders SPLY", "field": "No. of orders SPLY" }
+      ],
+      "priorPeriod": [
+        { "name": "PP Gross $", "field": "PP Gross $" },
+        { "name": "PP Net $", "field": "PP Net Dollar" },
+        { "name": "PP Gross Weight", "field": "PP Gross Weight" },
+        { "name": "PP Net Weight", "field": "PP Net Weight" },
+        { "name": "PP Orders", "field": "PP No. of order" }
+      ],
+      "priorPeriodPercentage": [
+        { "name": "PP % Units", "field": "PP % No. of unit sold" },
+        { "name": "PP % LBs", "field": "PP % No. of LBs sold" },
+        { "name": "PP % Orders", "field": "PP % No. of orders" },
+        { "name": "PP % Order Count", "field": "PP% Order Count" }
+      ],
+      "differencePercentage": [
+        { "name": "% Diff Units Sold", "field": "% Diff No. of units sold" },
+        { "name": "% Diff LBs Sold", "field": "% Diff No.of LBs sold" },
+        { "name": "% Diff Orders", "field": "% Diff No. of orders" },
+        { "name": "% Diff Labels Units", "field": "% Difference lables No. of unit sold" }
+      ],
+      "growth": {
+        "arrows": [
+          { "name": "Arrow Units", "field": "%G Arrow No. of unit sold" },
+          { "name": "Arrow LBs", "field": "%G Arrow No. of LBs sold" },
+          { "name": "Arrow Orders", "field": "%G Arrow No. of orders" }
+        ],
+        "colors": [
+          { "name": "Color Units G%", "field": "Color No. of unit sold G%" },
+          { "name": "Color LBs G%", "field": "Color No. of LBs sold G%" },
+          { "name": "Color Orders G%", "field": "Color No. of orders G%" }
+        ]
+      }
+    }
+  },
+  "title": {
+    "table": "dimProduct",
+    "measure": "Title in details"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dimensions": {
+    "customer": {
+      "table": "dimCustomer",
+      "columns": [
+        { "name": "Customer Bill To", "field": "Customer Bill To" },
+        { "name": "Customer Ship To", "field": "Customer Ship To" },
+        { "name": "Customer Code/Name", "field": "Customer Code/Name" },
+        { "name": "Customer To Bill/Ship", "field": "Customer To Bill/Ship" }
+      ]
+    },
+    "date": {
+      "table": "DimDate",
+      "columns": [
+        { "name": "Year", "field": "Year Sort", "sortBy": "Year Sort" },
+        { "name": "Quarter", "field": "Quarter", "sortBy": "Quarter Sort" },
+        { "name": "Month", "field": "Month Name", "sortBy": "Month Sort" },
+        { "name": "Month-Year", "field": "Month-Year", "sortBy": "Month Sort" },
+        { "name": "Week", "field": "Weekly", "sortBy": "Week Sort" },
+        { "name": "Day", "field": "Day", "sortBy": "Day Sort" },
+        { "name": "Day-Month", "field": "Day-Month", "sortBy": "Day Sort" }
+      ]
+    },
+    "product": {
+      "table": "dimProduct",
+      "columns": [
+        { "name": "Principal", "field": "Principal Name-Code" },
+        { "name": "Product", "field": "Product Name-Code" }
+      ]
+    },
+    "fact": {
+      "table": "FactSalesDetails",
+      "columns": [
+        { "name": "Order Date", "field": "Order_Date" },
+        { "name": "Principal", "field": "Principal Name-Code" }
+      ]
+    }
+  },
+  "dateSelector": {
+    "table": "Date Class",
+    "options": [
+      { "name": "Arrival Date", "value": "Arrival Date" },
+      { "name": "Invoice Date", "value": "Invoice date" },
+      { "name": "Order Date", "value": "Order Date" },
+      { "name": "Paid Date", "value": "Paid Date" },
+      { "name": "Ship Date", "value": "Ship Date" }
+    ]
+  },
+  "parameters": {
+    "product": { "table": "Product Parameter", "column": "Parameter1" },
+    "salesTrendMeasure": {
+      "table": "Sales Trend Measure Parameter",
+      "column": "Measures Parameter"
+    },
+    "salesTrendComparison": { "table": "Sales Trend Measure Parameter", "column": "PP And SPLY" }
+  }
+}

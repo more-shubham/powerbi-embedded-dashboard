@@ -1,0 +1,105 @@
+{
+  "sales": {
+    "table": "All Measures",
+    "measures": {
+      "current": [
+        { "name": "Total Sales", "field": "Total Sales" },
+        { "name": "Gross $", "field": "## Gross $" },
+        { "name": "Net $", "field": "## Net $" },
+        { "name": "Total Cases", "field": "Total Cases" },
+        { "name": "Cases", "field": "## Cases" },
+        { "name": "Order Count", "field": "Order Count" },
+        { "name": "Item Price", "field": "Item Price" }
+      ],
+      "comparison": [
+        { "name": "Total Sales LY", "field": "Total Sales LY" },
+        { "name": "Total Cases LY", "field": "Total Cases LY" },
+        { "name": "Total Sales % Change vs LY", "field": "Total Sales % Chng vs LY" },
+        { "name": "Total Cases % Change vs LYP", "field": "Total Cases % Chng vs LYP" }
+      ],
+      "priorPeriod": [
+        { "name": "PP Total Sales", "field": "PP Total Sales" },
+        { "name": "PP Total Cases", "field": "PP Total cases" }
+      ],
+      "running": [
+        { "name": "Gross $ Running", "field": "Gross $ Running" },
+        { "name": "Net $ Running", "field": "Net $ Running" },
+        { "name": "Cases Running", "field": "Cases Running" }
+      ],
+      "absolute": [
+        { "name": "Gross $ Absolute", "field": "Gross $ Absolute" },
+        { "name": "Net $ Absolute", "field": "Net $ Absolute" },
+        { "name": "Cases Absolute", "field": "Cases Absolute" }
+      ]
+    }
+  },
+  "brokerage": {
+    "table": "All Measures",
+    "measures": {
+      "current": [
+        { "name": "Calculated Brokerage", "field": "Calculated Brokerage" },
+        { "name": "Paid Brokerage", "field": "Paid Brokerage" },
+        { "name": "Calc Brokerage", "field": "## Calc Brokerage" },
+        { "name": "Paid Brokerage #", "field": "## Paid Brokerage" }
+      ],
+      "percentage": [
+        { "name": "% Calc Brokerage on Net Sales", "field": "%Cal. Brokerage on net sales" },
+        { "name": "% Paid Brokerage on Net Sales", "field": "%Paid Brokerage on net Sales" }
+      ],
+      "priorPeriod": [
+        { "name": "PP Calculated Brokerage", "field": "PP Calculated Brokerage" },
+        { "name": "PP Paid Brokerage", "field": "PP Paid Brokerage" }
+      ],
+      "running": [
+        { "name": "Calc Brokerage Running", "field": "Calc Brokerage Running" },
+        { "name": "Paid Brokerage Running", "field": "Paid Brokerage Running" }
+      ],
+      "absolute": [
+        { "name": "Calc Brokerage Absolute", "field": "Calc Brokerage Absolute" },
+        { "name": "Paid Brokerage Absolute", "field": "Paid Brokerage Absolute" }
+      ]
+    }
+  },
+  "growth": {
+    "table": "All Measures",
+    "measures": {
+      "percentages": [
+        { "name": "% Growth Total Sales", "field": "%G Total sales" },
+        { "name": "% Growth Total Cases", "field": "%G Total cases" },
+        { "name": "% Growth Calc Brokerage", "field": "%G calculated brokerage" },
+        { "name": "% Growth Paid Brokerage", "field": "%G Paid brokerage" }
+      ],
+      "colors": [
+        { "name": "Color Total Sales G%", "field": "Color Total sales G%" },
+        { "name": "Color Total Cases G%", "field": "Color Total cases G%" },
+        { "name": "Color Calc Brokerage G%", "field": "Color Calculated Brokerage G%" },
+        { "name": "Color Paid Brokerage G%", "field": "Color Paid Brokerge G%" }
+      ],
+      "arrows": [
+        { "name": "Arrow Total Sales", "field": "Arrow total sales" },
+        { "name": "Arrow Total Cases", "field": "Arrow total cases" },
+        { "name": "Arrow Calc Brokerage", "field": "Arrow Calculated brokerage" },
+        { "name": "Arrow Paid Brokerage", "field": "Arrow Paid Brokerage" }
+      ],
+      "lines": [
+        { "name": "Line Total Sales", "field": "Line total Sales" },
+        { "name": "Line Total Cases", "field": "Line Total Cases" },
+        { "name": "Line Calc Brokerage", "field": "Line calculated Brokerage" },
+        { "name": "Line Paid Brokerage", "field": "Line Paid Brokerage" }
+      ]
+    }
+  },
+  "utilities": {
+    "table": "All Measures",
+    "measures": [
+      { "name": "Max Date", "field": "Max Date" },
+      { "name": "Last Order Date", "field": "Last Order Date" }
+    ]
+  },
+  "indicators": {
+    "upDown": {
+      "up": { "table": "% Up", "measure": "% Up Value" },
+      "down": { "table": "% Down", "measure": "% Down Value" }
+    }
+  }
+}
